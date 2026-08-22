@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "mode": "canonical_3ko",
+  "victory": { "type": "warrior_ko", "count": 3 },
+  "disc": {
+    "handSlots": 5,
+    "summonSlots": 3,
+    "supportSlots": 1,
+    "reactionSlots": 1,
+    "graveSlots": 1,
+    "energyMax": 10,
+    "startingEnergy": 5
+  },
+  "interaction": {
+    "dragCardToSummon": true,
+    "tapCardInspect3d": true,
+    "doubleTapFlip": true,
+    "contextualLegalTargets": true,
+    "localClientMayChooseRandomOutcome": false
+  },
+  "authoritative": {
+    "diceResult": "server",
+    "damageResolution": "server",
+    "koResolution": "server",
+    "ownership": "solana_das",
+    "deckLegality": "server"
+  },
+  "destroySequenceMs": {
+    "hitStop": 75,
+    "fracture": 280,
+    "collapse": 350,
+    "cardFlip": 420,
+    "graveTravel": 380
+  },
+  "forkApi": {
+    "mayAddSubgames": true,
+    "mayAddVrWorlds": true,
+    "mayChangeGenesisSerials": false,
+    "mayChangeRankedStats": false,
+    "mayMintGenesis": false
+  }
+}
