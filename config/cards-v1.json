@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "ranked": {"nftMultiplier": 1, "winConditionKOs": 3, "startingEnergy": 5, "maxEnergy": 10, "handSize": 5},
+  "cards": [
+    {"id":"PLEIADIAN_CELESTIA","name":"Pleyadian Celestia","cost":2,"attack":2,"health":5,"speed":3,"type":"guardian","effect":{"id":"CELESTIAL_RESTORE","text":"Al invocarse, cura 2 al aliado más herido."}},
+    {"id":"NULL_ANDROID_TITAN","name":"Null Android Titan","cost":3,"attack":3,"health":7,"speed":1,"type":"tank","effect":{"id":"NULL_BARRIER","text":"Entra con un escudo que absorbe el próximo impacto."}},
+    {"id":"NEXUS_COMMANDER","name":"Nexus Commander","cost":3,"attack":3,"health":5,"speed":3,"type":"commander","effect":{"id":"COMMAND_PULSE","text":"Los aliados obtienen +1 velocidad durante este turno."}},
+    {"id":"COSMIC_LEVIATHAN","name":"Cosmic Leviathan","cost":4,"attack":5,"health":7,"speed":1,"type":"colossus","effect":{"id":"GRAVITY_WAVE","text":"Al atacar, inflige 1 a enemigos adyacentes."}},
+    {"id":"COSMIC_FLAGSHIP","name":"Cosmic Flagship","cost":4,"attack":4,"health":8,"speed":2,"type":"ship","effect":{"id":"ENERGY_RELAY","text":"La primera invocación aliada siguiente cuesta 1 menos."}},
+    {"id":"NEXUS_PHOENIX","name":"Nexus Phoenix","cost":4,"attack":4,"health":5,"speed":4,"type":"phoenix","effect":{"id":"REBIRTH","text":"Una vez por duelo, vuelve con 2 de vida tras ser destruido."}},
+    {"id":"VOID_DRAGON","name":"Void Dragon","cost":4,"attack":5,"health":6,"speed":3,"type":"dragon","effect":{"id":"VOID_PUSH","text":"Empuja una unidad enemiga una zona si existe destino legal."}},
+    {"id":"ORION_STRIKER","name":"Orion Striker","cost":2,"attack":4,"health":3,"speed":5,"type":"striker","effect":{"id":"FIRST_STRIKE","text":"Su primer ataque del duelo obtiene +1 ataque."}},
+    {"id":"ZYRAX","name":"ZYRAX","cost":3,"attack":3,"health":5,"speed":4,"type":"controller","effect":{"id":"TIME_SNARE","text":"El objetivo pierde 2 velocidad hasta el siguiente turno."}},
+    {"id":"SOLARIS_PRIME","name":"Solaris Prime","cost":3,"attack":3,"health":6,"speed":2,"type":"guardian","effect":{"id":"SOLAR_AEGIS","text":"Da escudo a un aliado sin escudo."}},
+    {"id":"NEBULON","name":"Nebulon","cost":3,"attack":2,"health":5,"speed":3,"type":"terrain","effect":{"id":"NEBULA_FIELD","text":"Crea una zona que reduce 1 velocidad a enemigos durante 2 turnos."}},
+    {"id":"ASTRA_LION","name":"Astra Lion","cost":3,"attack":4,"health":5,"speed":4,"type":"hunter","effect":{"id":"ASTRAL_LEAP","text":"Puede invocarse en cualquier zona de invocación libre."}}
+  ]
+}
