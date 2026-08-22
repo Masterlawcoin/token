@@ -1,0 +1,25 @@
+{
+  "collection": "BBSX Nexus Genesis",
+  "symbol": "BBSX",
+  "network": "devnet",
+  "standard": "Bubblegum V2 cNFT",
+  "supply": 24,
+  "serialRange": [1, 24],
+  "archetypes": [
+    "PLEIADIAN_CELESTIA",
+    "NULL_ANDROID_TITAN",
+    "NEXUS_COMMANDER",
+    "COSMIC_LEVIATHAN",
+    "COSMIC_FLAGSHIP",
+    "NEXUS_PHOENIX",
+    "VOID_DRAGON",
+    "ORION_STRIKER",
+    "ZYRAX",
+    "SOLARIS_PRIME",
+    "NEBULON",
+    "ASTRA_LION"
+  ],
+  "allocationRule": "two consecutive serials per archetype",
+  "rankedPowerMultiplier": 1,
+  "immutableGenesisSerials": true
+}
